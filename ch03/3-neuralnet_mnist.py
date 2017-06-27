@@ -40,16 +40,18 @@ def predict(network, x):
     return y
 
 x, t = get_data()
+print(len(x))
+print(len(t))
 network = init_network()
 
 accuracy_cnt = 0
-print(len(x))
 for i in range(len(x)):
-    #print(x[i])
+    #print(len(x[i]))
     y = predict(network, x[i])
-    #print(y)
+    print(y)
     p = np.argmax(y)
     if p == t[i]:
         accuracy_cnt += 1
 
+print(accuracy_cnt)
 print("Accuracy:" + str(float(accuracy_cnt) / len(x)))
