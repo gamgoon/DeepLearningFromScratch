@@ -12,11 +12,11 @@ def sigmoid(x):
     return 1 / (1 + np.exp(-x))
 
 
-x = np.arange(-5.0, 5.0, 0.1)
-y = sigmoid(x)
-plt.plot(x, y)
-plt.ylim(-0.1, 1.1) # y축 범위를 지정.
-plt.show()
+# x = np.arange(-5.0, 5.0, 0.1)
+# y = sigmoid(x)
+# plt.plot(x, y)
+# plt.ylim(-0.1, 1.1) # y축 범위를 지정.
+# plt.show()
 
 
 # 아래는 채민이의 생애 첫 타이핑!!!
