@@ -3,3 +3,4 @@
 *.gz
 
 dataset/mnist.pkl
+ch01/test.png
